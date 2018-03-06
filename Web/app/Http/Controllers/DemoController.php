@@ -11,20 +11,21 @@ class DemoController extends Controller
     public function index()
     {
         $html = HTMLDomParser::file_get_html("http://phpcoban.com/");
-        if(is_object($html)){
-		
-            // Trả về đối tượng nếu tìm được, hoặc null nếu không.
-            $t = $html->find("h2", 0);
-            
-            if($t){
-              $title = $t->innertext;
+        foreach($html->find('ul') as $value) 
+        {
+            foreach($value->find('a ') as $element)
+            {
+                if($element->title != null)
+                    echo'Title: '.$element->title .'<br>';
+                else
+                echo 'URL: '. $element->href .'<br>';
             }
-          
-            echo "Title: ".$title."</br></br></br>";
-            
         }
         
-        return view('demo');
+        
+    
+        
+        //return view('demo');
     }
     
 }
