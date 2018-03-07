@@ -1,14 +1,13 @@
-DROP DATABASE chuyendeweb;
-CREATE DATABASE chuyendeweb CHARACTER SET UTF8;
-USE chuyendeweb;
+CREATE DATABASE foojobs CHARACTER SET UTF8;
+USE foojobs;
 
-CREATE TABLE TypeJobs
+CREATE TABLE m_type
 (
 	TypeId				INT AUTO_INCREMENT PRIMARY KEY,
     Name 			VARCHAR(255)
 );
 
-CREATE TABLE Jobs
+CREATE TABLE m_jobs
 (
 	Id				INT AUTO_INCREMENT PRIMARY KEY,
     TypeId			INT,
@@ -23,5 +22,5 @@ CREATE TABLE Jobs
     CONSTRAINT UC_Job_Url UNIQUE(Url)
 );	
 
-ALTER TABLE `Jobs`
-  ADD CONSTRAINT `Jobs` FOREIGN KEY (`TypeId`) REFERENCES `TypeJobs` (`TypeId`);
+ALTER TABLE `m_jobs`
+  ADD CONSTRAINT `m_jobs` FOREIGN KEY (`TypeId`) REFERENCES `m_type` (`TypeId`);
