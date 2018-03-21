@@ -4,17 +4,17 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit0edabbb3ac73c448c0c0457e21d8cccd
+class ComposerStaticInit3464913f287ef2579f32472b5ea5ab1a
 {
     public static $files = array (
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
-        '667aeda72477189d0494fecd327c3641' => __DIR__ . '/..' . '/symfony/var-dumper/Resources/functions/dump.php',
-        '1d1b89d124cc9cb8219922c9d5569199' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest.php',
         '5255c38a0faeba867671b61dfda6d864' => __DIR__ . '/..' . '/paragonie/random_compat/lib/random.php',
         '023d27dca8066ef29e6739335ea73bad' => __DIR__ . '/..' . '/symfony/polyfill-php70/bootstrap.php',
+        '667aeda72477189d0494fecd327c3641' => __DIR__ . '/..' . '/symfony/var-dumper/Resources/functions/dump.php',
+        '1d1b89d124cc9cb8219922c9d5569199' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest.php',
         '2c102faa651ef8ea5874edb585946bce' => __DIR__ . '/..' . '/swiftmailer/swiftmailer/lib/swift_required.php',
-        'e7223560d890eab89cda23685e711e2c' => __DIR__ . '/..' . '/psy/psysh/src/Psy/functions.php',
         '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
+        'e7223560d890eab89cda23685e711e2c' => __DIR__ . '/..' . '/psy/psysh/src/Psy/functions.php',
         'f0906e6318348a765ffb6eb24e0d0938' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Foundation/helpers.php',
         '58571171fd5812e6e447dce228f52f4d' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Support/helpers.php',
     );
@@ -96,7 +96,6 @@ class ComposerStaticInit0edabbb3ac73c448c0c0457e21d8cccd
         'A' => 
         array (
             'App\\' => 4,
-            'Ammadeuss\\LaravelHtmlDomParser\\' => 31,
         ),
     );
 
@@ -104,8 +103,8 @@ class ComposerStaticInit0edabbb3ac73c448c0c0457e21d8cccd
         'phpDocumentor\\Reflection\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
-            1 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
-            2 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
+            1 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
+            2 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
         ),
         'XdgBaseDir\\' => 
         array (
@@ -243,20 +242,9 @@ class ComposerStaticInit0edabbb3ac73c448c0c0457e21d8cccd
         array (
             0 => __DIR__ . '/../..' . '/app',
         ),
-        'Ammadeuss\\LaravelHtmlDomParser\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/ammadeuss/laravel-html-dom-parser',
-        ),
     );
 
     public static $prefixesPsr0 = array (
-        'S' => 
-        array (
-            'Sunra\\PhpSimple\\HtmlDomParser' => 
-            array (
-                0 => __DIR__ . '/..' . '/sunra/php-simple-html-dom-parser/Src',
-            ),
-        ),
         'P' => 
         array (
             'Prophecy\\' => 
@@ -289,8 +277,6 @@ class ComposerStaticInit0edabbb3ac73c448c0c0457e21d8cccd
     );
 
     public static $classMap = array (
-        'Ammadeuss\\LaravelHtmlDomParser\\Facade' => __DIR__ . '/..' . '/ammadeuss/laravel-html-dom-parser/Facade.php',
-        'Ammadeuss\\LaravelHtmlDomParser\\ServiceProvider' => __DIR__ . '/..' . '/ammadeuss/laravel-html-dom-parser/ServiceProvider.php',
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
         'App\\Http\\Controllers\\Auth\\ForgotPasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/ForgotPasswordController.php',
@@ -314,6 +300,7 @@ class ComposerStaticInit0edabbb3ac73c448c0c0457e21d8cccd
         'Carbon\\Carbon' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Carbon.php',
         'Carbon\\CarbonInterval' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/CarbonInterval.php',
         'Carbon\\Exceptions\\InvalidDateException' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Exceptions/InvalidDateException.php',
+        'Carbon\\Translator' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Translator.php',
         'CreatePasswordResetsTable' => __DIR__ . '/../..' . '/database/migrations/2014_10_12_100000_create_password_resets_table.php',
         'CreateUsersTable' => __DIR__ . '/../..' . '/database/migrations/2014_10_12_000000_create_users_table.php',
         'Cron\\AbstractField' => __DIR__ . '/..' . '/mtdowling/cron-expression/src/Cron/AbstractField.php',
@@ -2725,7 +2712,6 @@ class ComposerStaticInit0edabbb3ac73c448c0c0457e21d8cccd
         'SebastianBergmann\\ResourceOperations\\ResourceOperations' => __DIR__ . '/..' . '/sebastian/resource-operations/src/ResourceOperations.php',
         'SebastianBergmann\\Version' => __DIR__ . '/..' . '/sebastian/version/src/Version.php',
         'SessionUpdateTimestampHandlerInterface' => __DIR__ . '/..' . '/symfony/polyfill-php70/Resources/stubs/SessionUpdateTimestampHandlerInterface.php',
-        'Sunra\\PhpSimple\\HtmlDomParser' => __DIR__ . '/..' . '/sunra/php-simple-html-dom-parser/Src/Sunra/PhpSimple/HtmlDomParser.php',
         'Symfony\\Component\\Console\\Application' => __DIR__ . '/..' . '/symfony/console/Application.php',
         'Symfony\\Component\\Console\\CommandLoader\\CommandLoaderInterface' => __DIR__ . '/..' . '/symfony/console/CommandLoader/CommandLoaderInterface.php',
         'Symfony\\Component\\Console\\CommandLoader\\ContainerCommandLoader' => __DIR__ . '/..' . '/symfony/console/CommandLoader/ContainerCommandLoader.php',
@@ -2869,7 +2855,6 @@ class ComposerStaticInit0edabbb3ac73c448c0c0457e21d8cccd
         'Symfony\\Component\\Debug\\FatalErrorHandler\\FatalErrorHandlerInterface' => __DIR__ . '/..' . '/symfony/debug/FatalErrorHandler/FatalErrorHandlerInterface.php',
         'Symfony\\Component\\Debug\\FatalErrorHandler\\UndefinedFunctionFatalErrorHandler' => __DIR__ . '/..' . '/symfony/debug/FatalErrorHandler/UndefinedFunctionFatalErrorHandler.php',
         'Symfony\\Component\\Debug\\FatalErrorHandler\\UndefinedMethodFatalErrorHandler' => __DIR__ . '/..' . '/symfony/debug/FatalErrorHandler/UndefinedMethodFatalErrorHandler.php',
-        'Symfony\\Component\\EventDispatcher\\ContainerAwareEventDispatcher' => __DIR__ . '/..' . '/symfony/event-dispatcher/ContainerAwareEventDispatcher.php',
         'Symfony\\Component\\EventDispatcher\\Debug\\TraceableEventDispatcher' => __DIR__ . '/..' . '/symfony/event-dispatcher/Debug/TraceableEventDispatcher.php',
         'Symfony\\Component\\EventDispatcher\\Debug\\TraceableEventDispatcherInterface' => __DIR__ . '/..' . '/symfony/event-dispatcher/Debug/TraceableEventDispatcherInterface.php',
         'Symfony\\Component\\EventDispatcher\\Debug\\WrappedListener' => __DIR__ . '/..' . '/symfony/event-dispatcher/Debug/WrappedListener.php',
@@ -3382,10 +3367,10 @@ class ComposerStaticInit0edabbb3ac73c448c0c0457e21d8cccd
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit0edabbb3ac73c448c0c0457e21d8cccd::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit0edabbb3ac73c448c0c0457e21d8cccd::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit0edabbb3ac73c448c0c0457e21d8cccd::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInit0edabbb3ac73c448c0c0457e21d8cccd::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit3464913f287ef2579f32472b5ea5ab1a::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit3464913f287ef2579f32472b5ea5ab1a::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit3464913f287ef2579f32472b5ea5ab1a::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInit3464913f287ef2579f32472b5ea5ab1a::$classMap;
 
         }, null, ClassLoader::class);
     }
